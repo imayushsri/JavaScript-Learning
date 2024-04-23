@@ -46,3 +46,13 @@ console.log(bool4)    // true
 let num = 33;
 let str = String(num);
 console.table([typeof str, str]);
+
+
+// Conversion in Operations
+console.log("1" + 2); // 12
+console.log(1 + "2"); // 12
+console.log("1" + 2 + 2); //122
+console.log(1 + 2 + "2"); // 32
+console.log(+true); // 1
+console.log(+false); // 0
+console.log(+""); // 0
